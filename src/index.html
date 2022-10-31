@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <script src="./js/main.js"></script>
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <div id="liftsimulation">
+        <form id="liftinputs" >
+            <div>
+                <label for="nooffloors">Enter the no. of floors</label>
+                <input id="nooffloors" name="nooffloors" type="text" /> 
+            </div>
+            <div>
+                <label for="nooflifts">Enter the no. of lifts</label>
+                <input id="nooflifts" name="nooffloors" type="text" />
+            </div>
+            <div>
+                <input type="button" value="Submit" onclick="test(
+                    document.getElementById('nooffloors').value, document.getElementById('nooflifts').value
+                );" />
+            </div>
+        </form>
+        </div>
+        <hr />
+        <div id="floors" class="floors">
+
+        </div>
+
+    </body>
+</html>

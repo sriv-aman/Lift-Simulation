@@ -1,0 +1,51 @@
+#lifts {
+    display: inline-flex;
+    /* justify-content: space-evenly; */
+    height: 80%;
+    width: 100%;
+    align-self: flex-end;
+}
+.floor {
+    height: 200px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.actionButtons {
+    height: 100%;
+    width: 100%;
+}
+
+#buttons {
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lift {
+    width: 100%;
+    justify-content: center;
+}
+
+#door {
+    width: 60px; 
+    background-color: rgb(0, 119, 255);
+    border:1px solid black;
+}
+
+#liftsimulation {
+   justify-content: center;
+   display: flex;
+}
+
+input[type=submit]{
+    align-self: center;
+}
+
+input[type=button]{
+    height: 20px;
+    width: 70px;
+}
